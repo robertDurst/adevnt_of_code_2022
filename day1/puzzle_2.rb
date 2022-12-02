@@ -14,4 +14,5 @@ answer = File.open("./input.txt") do |file|
     end
 end
 
+# 209914
 puts "Answer: #{answer[:elves].sort.reverse[..2].sum}"

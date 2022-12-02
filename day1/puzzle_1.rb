@@ -14,5 +14,6 @@ answer = File.open("./input.txt") do |file|
     end
 end
 
+# 74198
 puts "Answer: #{answer[:largest]}"
 
